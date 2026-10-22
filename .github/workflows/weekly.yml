@@ -19,10 +19,12 @@ jobs:
           python-version: "3.12"
       - run: pip install -e .
       - name: Daten laden
-        run: krzh --db data/krzh.sqlite sync
-      - name: Report schreiben
         run: |
           mkdir -p reports
+          krzh --db data/krzh.sqlite sync | tee reports/last-sync.txt
+          krzh --db data/krzh.sqlite stats | tee -a reports/last-sync.txt
+      - name: Report schreiben
+        run: |
           krzh --db data/krzh.sqlite report --out "reports/$(date +%F).md"
           cp "reports/$(date +%F).md" reports/latest.md
       - name: Commit

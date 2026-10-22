@@ -2,7 +2,7 @@ __pycache__/
 *.pyc
 *.egg-info/
 .pytest_cache/
-krzh.sqlite
+/krzh.sqlite
 *.sqlite-journal
 build/
 dist/
