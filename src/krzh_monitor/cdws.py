@@ -77,7 +77,8 @@ class CdwsClient:
         if resp.status_code == 406:
             raise CdwsError(_extract_406_message(resp.text))
         resp.raise_for_status()
-        return Page(index=index.upper(), query=query, start=start, page_size=page_size, xml=resp.text)
+        # Die XML-Deklaration sagt utf-8; nicht auf das Raten von requests verlassen.
+        return Page(index=index.upper(), query=query, start=start, page_size=page_size, xml=resp.content.decode("utf-8"))
 
     def iter_pages(self, index: str, query: str, page_size: int = DEFAULT_PAGE_SIZE, max_hits: int | None = None) -> Iterator[Page]:
         """Liefert Seite für Seite, bis ``numHits`` erreicht ist."""
