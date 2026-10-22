@@ -1,16 +1,21 @@
-name: Wochenübersicht
+name: Montagsbriefing
 
 on:
   schedule:
-    # Freitag 06:30 UTC (07:30/08:30 Zürich): nach Publikation der Traktandenliste für den Montag
-    - cron: "30 6 * * 5"
+    # Montag 05:30 UTC (06:30 MEZ / 07:30 MESZ): vor Sitzungsbeginn 08:15
+    - cron: "30 5 * * 1"
   workflow_dispatch:
+    inputs:
+      stichtag:
+        description: "Sitzungstag (YYYY-MM-DD); leer = nächster Montag"
+        required: false
+        default: ""
 
 permissions:
   contents: write
 
 jobs:
-  sync-and-report:
+  sync-and-briefing:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,18 +25,29 @@ jobs:
       - run: pip install -e .
       - name: Daten laden
         run: |
-          mkdir -p reports
+          mkdir -p reports briefings
           krzh --db data/krzh.sqlite sync | tee reports/last-sync.txt
           krzh --db data/krzh.sqlite stats | tee -a reports/last-sync.txt
-      - name: Report schreiben
+      - name: Rohliste schreiben
         run: |
           krzh --db data/krzh.sqlite report --out "reports/$(date +%F).md"
           cp "reports/$(date +%F).md" reports/latest.md
+      - name: Briefing schreiben
+        env:
+          STICHTAG: ${{ github.event.inputs.stichtag }}
+        run: |
+          ARGS=""
+          if [ -n "$STICHTAG" ]; then ARGS="--stichtag $STICHTAG"; fi
+          krzh --db data/krzh.sqlite briefing --profil profiles/asd.toml $ARGS \
+            --out briefings/briefing-latest.md --html briefings/briefing-latest.html \
+            --rohliste-url "https://github.com/${GITHUB_REPOSITORY}/blob/main/reports/latest.md" \
+            | tee -a reports/last-sync.txt
+          cp briefings/briefing-latest.md "briefings/$(date +%F).md"
       - name: Commit
         run: |
           git config user.name "krzh-monitor"
           git config user.email "actions@users.noreply.github.com"
-          git add data/krzh.sqlite reports/
-          git diff --cached --quiet || git commit -m "Wochenübersicht $(date +%F)"
+          git add data/krzh.sqlite reports/ briefings/
+          git diff --cached --quiet || git commit -m "Briefing $(date +%F)"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push

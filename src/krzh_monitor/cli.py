@@ -40,6 +40,17 @@ def build_parser() -> argparse.ArgumentParser:
     r.add_argument("--vorschau", type=int, default=14)
     r.add_argument("--out", type=Path, default=None, help="Zieldatei (Standard: stdout)")
 
+    b = sub.add_parser("briefing", help="Montagsbriefing mit den für ein Amt relevanten Geschäften")
+    b.add_argument("--profil", type=Path, default=Path("profiles/asd.toml"), help="Relevanzprofil (TOML)")
+    b.add_argument("--stichtag", type=_date, default=None, help="Sitzungstag (Standard: nächster Montag)")
+    b.add_argument("--out", type=Path, default=None, help="Markdown-Zieldatei (Standard: stdout)")
+    b.add_argument("--html", type=Path, default=None, help="zusätzlich HTML-Datei für den Mailversand")
+    b.add_argument("--rohliste-url", default=None, help="Link auf die vollständige Rohliste")
+
+    rl = sub.add_parser("relevanz", help="Alle geladenen Geschäfte bewerten (zum Kalibrieren des Profils)")
+    rl.add_argument("--profil", type=Path, default=Path("profiles/asd.toml"))
+    rl.add_argument("--stufe", choices=["relevant", "pruefen", "alle"], default="pruefen", help="Mindeststufe (Standard: prüfen)")
+
     sub.add_parser("stats", help="Zeilen je Tabelle")
     return p
 
@@ -68,6 +79,32 @@ def main(argv: list[str] | None = None) -> int:
                 print(f"Report geschrieben: {args.out}")
             else:
                 sys.stdout.write(md)
+        elif args.cmd == "briefing":
+            from .briefing import baue_briefing, naechster_montag, render_html, render_markdown
+            from .relevanz import lade_profil
+
+            profil = lade_profil(args.profil)
+            stichtag = args.stichtag or naechster_montag()
+            b = baue_briefing(store, profil, stichtag, rohliste_url=args.rohliste_url)
+            md = render_markdown(b)
+            if args.out:
+                args.out.write_text(md, encoding="utf-8")
+                print(f"Briefing geschrieben: {args.out} ({b.anzahl_relevant} relevant, {b.anzahl_pruefen} zur Prüfung)")
+            else:
+                sys.stdout.write(md)
+            if args.html:
+                args.html.write_text(render_html(b), encoding="utf-8")
+                print(f"HTML geschrieben: {args.html}")
+        elif args.cmd == "relevanz":
+            from .relevanz import bewerte_row, lade_profil
+
+            profil = lade_profil(args.profil)
+            rows = store.conn.execute("SELECT * FROM geschaefte").fetchall()
+            bewertet = sorted(((bewerte_row(profil, r), r) for r in rows), key=lambda x: -x[0].score)
+            stufen = {"relevant": ("relevant",), "pruefen": ("relevant", "pruefen"), "alle": ("relevant", "pruefen", "keine")}[args.stufe]
+            for bw, r in bewertet:
+                if bw.stufe in stufen:
+                    print(f"{bw.score:5.1f} {bw.stufe:8s} {r['nummer'] or '':9s} {r['direktion_kurz'] or '':4s} {r['titel'][:70]:70s} | {bw.begruendung}")
         elif args.cmd == "stats":
             for k, v in store.counts().items():
                 print(f"{k:15s} {v}")

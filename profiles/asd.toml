@@ -1,0 +1,114 @@
+# Relevanzprofil Amt für Statistik und Daten (ASD), Kanton Zürich
+#
+# Grundlage: Aufgaben nach VASD (öffentliche Statistik, Data Governance, Datenmanagement,
+# Open Government Data, politische Rechte und Partizipation, Erhebungen) sowie angrenzende
+# Themen der Digitalisierung.
+#
+# Jeder Begriff ist ein regulärer Ausdruck mit Gewicht; Gross-/Kleinschreibung spielt keine
+# Rolle, ausser bei `cs = true` (Abkürzungen). Treffer im Titel zählen dreifach, in der
+# Zusammenfassung doppelt, im Volltext einfach; der Volltextanteil ist gedeckelt. «relevant»
+# setzt einen Titel- oder Zusammenfassungstreffer mit Gewicht >= titel_min_gewicht voraus,
+# Volltexttreffer allein führen höchstens zu «prüfen».
+
+[meta]
+name = "ASD"
+beschreibung = "Amt für Statistik und Daten, Direktion der Justiz und des Innern"
+
+[scoring]
+gewicht_titel = 3.0
+gewicht_zusammenfassung = 2.0
+gewicht_volltext = 1.0
+volltext_max = 4.0
+schwelle_relevant = 6.0
+schwelle_pruefen = 4.0
+titel_min_gewicht = 2.0
+bonus_direktion = { JI = 1.0 }
+
+# --- Themen -----------------------------------------------------------------------
+
+[[thema]]
+name = "Statistik"
+begriffe = [
+  { re = "\\b\\w*statisti\\w*", gewicht = 3 },
+  { re = "\\bamt für statistik und daten\\b|\\bstatistisches amt\\b|\\bstatistik zürich\\b|\\bbundesamt für statistik\\b", gewicht = 4 },
+  { re = "\\bASD\\b|\\bBFS\\b", gewicht = 3, cs = true },
+  { re = "\\b\\w*indikator\\w*", gewicht = 2 },
+  { re = "\\b\\w*monitoring\\b", gewicht = 2 },
+  { re = "\\bkennzahl\\w*", gewicht = 2 },
+  { re = "\\bdatenlage\\b|\\bdatengrundlage\\w*|\\bdatenbasis\\b", gewicht = 3 },
+  { re = "\\bdatenerhebung\\w*|\\bstatistische[rn]? erhebung\\w*|\\berhebung (von|der) daten\\b|\\b\\w*befragung\\w*|\\b\\w*umfrage\\w*|\\bzensus\\b|\\bvolkszählung\\b|\\bmikrozensus\\b|\\bstrukturerhebung\\b", gewicht = 2 },
+  { re = "\\bbevölkerungs(entwicklung|prognose\\w*|szenari\\w*|statistik|wachstum)\\b", gewicht = 2 },
+  { re = "\\bwohlergehen\\w*|\\bwohlfahrtsmessung\\b|\\bbruttoinlandprodukt\\b", gewicht = 2 },
+  { re = "\\bBIP\\b", gewicht = 2, cs = true },
+  { re = "\\bauswertung\\w*|\\bevaluation\\b|\\bevaluier\\w*", gewicht = 0.5 },
+  { re = "\\bregelmässige[rn]? bericht\\w*|\\bbericht(erstattung)? zum stand\\b", gewicht = 1 },
+]
+
+[[thema]]
+name = "Daten und Data Governance"
+begriffe = [
+  { re = "\\bdata governance\\b|\\bdatengovernance\\b|\\bdatenbewirtschaftung\\b|\\bdatenmanagement\\b|\\bdatenstrategie\\b|\\bdatenpolitik\\b", gewicht = 4 },
+  { re = "\\bopen government data\\b|\\boffene (behörden)?daten\\b|\\bopen data\\b", gewicht = 4 },
+  { re = "\\bOGD\\b", gewicht = 4, cs = true },
+  { re = "\\bdatenplattform\\b|\\bdatenkatalog\\b|\\bdatenraum\\b|\\bdatenökosystem\\b|\\bdatenintegration\\b", gewicht = 3 },
+  { re = "\\bdatennutzung\\b|\\bdatenaustausch\\b|\\bdatenlieferung\\w*|\\bdatenbezug\\b|\\bdatenzugang\\b|\\bdatenweitergabe\\b|\\bdatenbeschaffung\\b", gewicht = 3 },
+  { re = "\\b\\w*datenbank\\w*", gewicht = 2 },
+  { re = "\\bdatenqualität\\b|\\bdatenstandard\\w*|\\bmetadaten\\b|\\bstammdaten\\b|\\bregisterharmonisierung\\b|\\bonce[- ]only\\b", gewicht = 3 },
+  { re = "\\binteroperabilität\\b|\\bschnittstelle\\w*|\\blinked (open )?data\\b", gewicht = 2 },
+  { re = "\\bAPI\\b", gewicht = 2, cs = true },
+  { re = "\\bregisterdaten\\b|\\beinwohnerregister\\b|\\bpersonenregister\\b|\\bgebäude- und wohnungsregister\\b", gewicht = 2 },
+  { re = "\\bkünstliche intelligenz\\b|\\balgorithm\\w*|\\bmaschinelles lernen\\b", gewicht = 2 },
+  { re = "\\bKI\\b", gewicht = 1, cs = true },
+  { re = "\\bdatenschutz\\w*|\\bpersonendaten\\b|\\banonymisier\\w*|\\bpseudonymisier\\w*", gewicht = 1 },
+  { re = "\\b(?!kandidaten\\b|soldaten\\b)\\w*daten\\b", gewicht = 1 },
+  { re = "\\bgeodaten\\b|\\bgeoinformation\\w*", gewicht = 1 },
+  { re = "\\bGIS\\b", gewicht = 1, cs = true },
+]
+
+[[thema]]
+name = "Politische Rechte"
+begriffe = [
+  { re = "\\bpolitische[nr]? rechte\\b|\\bstimmrecht(e|s|es)?\\b|\\bwahlrecht(e|s|es)?\\b|\\bstimm- und wahlrecht(e|s|es)?\\b", gewicht = 4 },
+  { re = "\\bunterschriften(sammlung|sammeln|bogen|bögen)?\\b|\\bsammeln von unterschriften\\b", gewicht = 4 },
+  { re = "\\bvolksinitiative\\w*|\\bgemeindeinitiative\\w*|\\binitiativrecht\\b|\\burnenabstimmung\\w*|\\burnengang\\w*|\\burnengänge\\b", gewicht = 3 },
+  # Floskeln in jeder Vorlage («untersteht dem fakultativen Referendum»): nur schwach gewichten
+  { re = "\\breferend(um|en|ums)\\b|\\bvolksabstimmung\\w*", gewicht = 1 },
+  { re = "\\be-voting\\b|\\belektronische stimmabgabe\\b|\\bbriefliche stimmabgabe\\b|\\bstimmregister\\b|\\bstimmrechtsausweis\\w*|\\bwahlkreis\\w*|\\bproporz\\w*|\\bmajorz\\w*|\\bsitzzuteilung\\b", gewicht = 4 },
+  { re = "\\bwahlsystem\\w*|\\bwahlverfahren\\b|\\bwahlvorschl(ag|äge)\\b|\\bstimmzettel\\b|\\bwahlzettel\\b", gewicht = 2 },
+  { re = "\\bstimmbeteiligung\\b|\\bwahlbeteiligung\\b|\\bstimmrechtsalter\\b|\\bausländerstimmrecht\\b|\\bstimmpflicht\\b|\\bwahlpflicht\\b", gewicht = 4 },
+  { re = "\\bpolitikfinanzierung\\b|\\bparteienfinanzierung\\b|\\btransparenz in der politik\\w*", gewicht = 3 },
+  { re = "\\b(kantonsrats|regierungsrats|gemeinde|kommunal|kantonal|national|stände|erneuerungs|gesamterneuerungs)(e|en|rats)?wahl(en)?\\b", gewicht = 2 },
+  { re = "\\babstimmungs(vorlage|vorlagen|büchlein|zeitung|sonntag|wochenende|ergebnis|ergebnisse|resultat|resultate|kampf|kämpfe|termin|termine)\\b", gewicht = 1 },
+  { re = "\\bdemokratie\\b|\\bpartizipation\\b|\\bmilizsystem\\b", gewicht = 1 },
+  { re = "\\bmitwirkung\\b|\\bmitbestimmung\\b", gewicht = 0.5 },
+  { re = "\\bgemeindeversammlung\\w*|\\bgemeindeparlament\\w*|\\bpolitische balance\\b", gewicht = 1 },
+]
+
+[[thema]]
+name = "Digitalisierung und Verwaltung"
+begriffe = [
+  { re = "\\bdigitalisierung\\b|\\bdigitale[rns]? (verwaltung|transformation|strategie)\\b|\\be-government\\b", gewicht = 2 },
+  { re = "\\bopen[- ]source\\b", gewicht = 2 },
+  { re = "\\bEMBAG\\b|\\bBGEID\\b", gewicht = 2, cs = true },
+  { re = "\\bIDG\\b", gewicht = 1, cs = true },
+  { re = "\\be-id\\b|\\belektronische identität\\b", gewicht = 2 },
+  { re = "\\btransparenz\\b|\\böffentlichkeitsprinzip\\b", gewicht = 1 },
+  { re = "\\bgemeindeamt\\b", gewicht = 1 },
+]
+
+# --- Ausschlüsse ----------------------------------------------------------------------
+# Geschäfte, deren Titel auf eines dieser Muster passt, werden nicht bewertet
+# (parlamentsinterne Wahlen und Behördenbestellungen sowie Sammelgeschäfte, die jedes Amt
+# erwähnen: Budget, KEF, Geschäftsbericht).
+[ausschluss]
+titel = [
+  "^festsetzung budget\\b",
+  "^konsolidierter entwicklungs- und finanzplan\\b",
+  "^geschäftsbericht des regierungsrates\\b",
+  "^jahresrechnung\\b|^rechnung \\d{4}\\b",
+  "^wahl (ersatz)?mitglied\\b",
+  "^(erneuerungs|ersatz)wahl\\b",
+  "\\bspitalrat\\b",
+  "\\bgeheime[n]? wahl\\b",
+  "\\bamtsdauer \\d{4}",
+]

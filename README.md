@@ -2,9 +2,8 @@
 
 Beobachtet die Geschäfte des Zürcher Kantonsrats und bereitet daraus eine Wochenübersicht
 auf: Was ist neu eingereicht, was hat der Regierungsrat beantwortet, was steht am Montag auf
-der Traktandenliste. Iteration 2: Datenzugriff, Ablage und Rohliste. Die Relevanzbewertung
-für ein Amt (zuerst das Amt für Statistik und Daten, später die Ämter der JI) folgt in
-Iteration 3.
+der Traktandenliste. Ein Relevanzprofil je Amt (zuerst das Amt für Statistik und Daten,
+später die Ämter der JI) filtert daraus das Montagsbriefing.
 
 ## Datenquelle
 
@@ -38,18 +37,41 @@ Zwei Eigenheiten, die der Code abfängt:
 
 ```bash
 pip install -e ".[dev]"
-krzh sync                      # Ablaufschritte der letzten 7 Tage, Sitzungen der nächsten 14 Tage
-krzh report --out report.md    # Markdown-Rohliste
+krzh sync                                  # Ablaufschritte der letzten 7 Tage, Sitzungen der nächsten 14 Tage
+krzh report --out report.md                # Markdown-Rohliste, alles ohne Bewertung
+krzh briefing --profil profiles/asd.toml --out briefing.md --html briefing.html
+krzh relevanz --profil profiles/asd.toml   # alle geladenen Geschäfte mit Score, zum Kalibrieren
 krzh stats
-pytest                         # Tests laufen offline gegen Fixtures in tests/fixtures
+pytest                                     # Tests laufen offline gegen Fixtures in tests/fixtures
 ```
+
+## Relevanzprofil und Briefing
+
+`profiles/asd.toml` beschreibt die Themen eines Amts als gewichtete reguläre Ausdrücke in
+vier Gruppen (Statistik, Daten und Data Governance, Politische Rechte, Digitalisierung und
+Verwaltung). Treffer im Titel zählen dreifach, in der Zusammenfassung doppelt, im Volltext
+einfach und gedeckelt. Drei Stufen:
+
+* **relevant**: Score über der Schwelle und ein Titel- oder Zusammenfassungstreffer mit
+  Gewicht ≥ 2 (z. B. «Datenlage», «Unterschriftensammlung», «Open Source»).
+* **prüfen**: Score über der Prüfschwelle, aber nur schwache oder reine Volltexttreffer.
+* **keine**: alles andere; Ausschlussmuster fangen parlamentsinterne Wahlen, Budget und
+  Geschäftsbericht ab, die jedes Amt erwähnen.
+
+Das Briefing (`krzh briefing`) zeigt für den Sitzungstag drei Blöcke: traktandierte
+Geschäfte der Ratssitzung, Ablaufschritte der vergangenen Woche, Kommissionssitzungen.
+Relevante Geschäfte erscheinen mit Begründung («Warum: Datenlage (Titel), …»), Geschäfte zur
+Prüfung als Einzeiler, der Rest als Zähler. Ausgabe als Markdown und als HTML für den
+Mailversand. Ein weiteres Amt bekommt eine eigene TOML-Datei; der Code ändert sich nicht.
 
 Standard-Datenbank ist `krzh.sqlite` im Arbeitsverzeichnis (`--db` ändert das). `sync`
 ist idempotent: bereits bekannte Ablaufschritte werden erkannt, Traktanden einer Sitzung
 ersetzt statt verdoppelt, fehlende Geschäfte nachgeladen.
 
-Der GitHub-Workflow (`.github/workflows/weekly.yml`) läuft freitags, schreibt
-`reports/<Datum>.md` sowie `reports/latest.md` und committet Datenbank und Report.
+Der GitHub-Workflow (`.github/workflows/weekly.yml`) läuft montags um 06:30/07:30 Uhr,
+schreibt `reports/latest.md` (Rohliste) und `briefings/briefing-latest.md` und `.html`
+und committet Datenbank, Rohliste und Briefing. Manuell lässt er sich mit einem
+beliebigen Stichtag starten.
 
 ## Aufbau
 
@@ -63,15 +85,18 @@ src/krzh_monitor/
   store.py       SQLite (geschaefte, ablaufschritte, sitzungen, traktanden)
   sync.py        Ladevorgang für ein Zeitfenster
   report.py      Markdown-Rohliste
+  relevanz.py    Profil laden, Geschäfte bewerten
+  briefing.py    Montagsbriefing (Markdown, HTML)
   cli.py         Kommandozeile
+profiles/        Relevanzprofile je Amt (TOML)
 tests/fixtures/  Echte Antworten der Schnittstelle vom 22.10.2026, gekürzt
 ```
 
 ## Nächste Iterationen
 
-1. Relevanzmodell: Amtsprofile als Text (zuerst VASD-basiert), Scoring gegen Titel und
-   Volltext, Stichprobe von Hand beurteilen und als Messlatte ablegen.
-2. Briefing: nur relevante Geschäfte, gruppiert nach Auslöser (traktandiert, neu,
-   Antwort des Regierungsrats), Versand per Mail oder als GitHub-Commit.
-3. Abonnement einzelner Geschäfte: Tabelle `abos`, Benachrichtigung bei jedem neuen
+1. Profil kalibrieren: Rückmeldungen aus den ersten Briefings einarbeiten (Begriffe,
+   Gewichte, Ausschlüsse); optional semantisches Modell hinter derselben Schnittstelle.
+2. Mailversand des Briefings.
+3. Weitere Ämter der JI als eigene Profile.
+4. Abonnement einzelner Geschäfte: Tabelle `abos`, Benachrichtigung bei jedem neuen
    Ablaufschritt.
