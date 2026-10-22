@@ -1,0 +1,35 @@
+name: Wochenübersicht
+
+on:
+  schedule:
+    # Freitag 06:30 UTC (07:30/08:30 Zürich): nach Publikation der Traktandenliste für den Montag
+    - cron: "30 6 * * 5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-and-report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e .
+      - name: Daten laden
+        run: krzh --db data/krzh.sqlite sync
+      - name: Report schreiben
+        run: |
+          mkdir -p reports
+          krzh --db data/krzh.sqlite report --out "reports/$(date +%F).md"
+          cp "reports/$(date +%F).md" reports/latest.md
+      - name: Commit
+        run: |
+          git config user.name "krzh-monitor"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/krzh.sqlite reports/
+          git diff --cached --quiet || git commit -m "Wochenübersicht $(date +%F)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
