@@ -2,8 +2,8 @@ name: Montagsbriefing
 
 on:
   schedule:
-    # Montag 05:30 UTC (06:30 MEZ / 07:30 MESZ): vor Sitzungsbeginn 08:15
-    - cron: "30 5 * * 1"
+    # Montag 05:00 UTC (06:00 MEZ / 07:00 MESZ); der Mailversand folgt um 07:45 Zürcher Zeit
+    - cron: "0 5 * * 1"
   workflow_dispatch:
     inputs:
       stichtag:

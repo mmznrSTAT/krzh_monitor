@@ -260,26 +260,40 @@ def render_markdown(b: Briefing) -> str:
 
 
 def render_html(b: Briefing) -> str:
+    """HTML mit Inline-Styles, damit es auch in Outlook und Gmail so aussieht wie gedacht."""
     h = html.escape
+    S = {
+        "body": "font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.45;color:#222222;max-width:760px;margin:0 auto;padding:16px",
+        "h1": "font-size:22px;margin:0 0 4px 0;font-weight:700",
+        "h2": "font-size:17px;margin:28px 0 4px 0;border-bottom:1px solid #dddddd;padding-bottom:4px;font-weight:700",
+        "sub": "color:#666666;font-size:13px;margin:0 0 12px 0",
+        "item": "margin:0 0 14px 0;padding-left:10px;border-left:3px solid #0f62fe",
+        "meta": "color:#555555;font-size:13px",
+        "why": "font-size:13px;color:#444444",
+        "quote": "font-size:13px;color:#444444;background:#f5f5f5;padding:6px 8px;margin:4px 0",
+        "ul": "font-size:14px;padding-left:18px;margin:4px 0 12px 0",
+        "rest": "color:#666666;font-size:13px",
+        "a": "color:#0f62fe;text-decoration:none",
+        "foot": "color:#888888;font-size:12px;margin-top:28px",
+    }
+
+    def a(url: str, text: str) -> str:
+        return f'<a href="{h(url)}" style="{S["a"]}">{h(text)}</a>'
 
     def link(e: Eintrag) -> str:
-        return f'<a href="{h(e.url)}">{h(e.label)}</a>' if e.url else h(e.label)
+        return a(e.url, e.label) if e.url else h(e.label)
 
     parts = [
-        "<!doctype html><html lang=\"de\"><head><meta charset=\"utf-8\">",
-        f"<title>ASD-Briefing Kantonsrat {h(_d(b.stichtag.isoformat()))}</title>",
-        "<style>body{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.45;color:#222;max-width:760px;margin:24px auto;padding:0 16px}"
-        "h1{font-size:22px;margin:0 0 4px}h2{font-size:17px;margin:28px 0 4px;border-bottom:1px solid #ddd;padding-bottom:4px}"
-        ".sub{color:#666;font-size:13px;margin:0 0 12px}.item{margin:0 0 14px;padding-left:10px;border-left:3px solid #0f62fe}"
-        ".meta{color:#555;font-size:13px}.why{font-size:13px;color:#444}.quote{font-size:13px;color:#444;background:#f5f5f5;padding:6px 8px;margin:4px 0}"
-        "ul.check{font-size:14px;padding-left:18px}.rest{color:#666;font-size:13px}a{color:#0f62fe;text-decoration:none}.foot{color:#888;font-size:12px;margin-top:28px}</style></head><body>",
-        f"<h1>ASD-Briefing Kantonsrat, {h(_wochentag(b.stichtag))} {h(_d(b.stichtag.isoformat()))}</h1>",
-        f"<p class=\"sub\">{b.anzahl_relevant} relevante Geschäfte, {b.anzahl_pruefen} zur Prüfung · Profil «{h(b.profil_name)}»</p>",
+        '<!doctype html><html lang="de"><head><meta charset="utf-8">',
+        f"<title>ASD-Briefing Kantonsrat {h(_d(b.stichtag.isoformat()))}</title></head>",
+        f'<body style="margin:0;padding:0;background:#ffffff"><div style="{S["body"]}">',
+        f'<h1 style="{S["h1"]}">ASD-Briefing Kantonsrat, {h(_wochentag(b.stichtag))} {h(_d(b.stichtag.isoformat()))}</h1>',
+        f'<p style="{S["sub"]}">{b.anzahl_relevant} relevante Geschäfte, {b.anzahl_pruefen} zur Prüfung · Profil «{h(b.profil_name)}»</p>',
     ]
     for blk in b.bloecke:
-        parts.append(f"<h2>{h(blk.titel)}</h2>")
+        parts.append(f'<h2 style="{S["h2"]}">{h(blk.titel)}</h2>')
         if blk.untertitel:
-            parts.append(f"<p class=\"sub\">{h(blk.untertitel)}</p>")
+            parts.append(f'<p style="{S["sub"]}">{h(blk.untertitel)}</p>')
         if blk.hinweis:
             parts.append(f"<p>{h(blk.hinweis)}</p>")
             continue
@@ -287,27 +301,27 @@ def render_html(b: Briefing) -> str:
             parts.append("<p>Nichts mit Bezug zum Profil.</p>")
             continue
         for e in blk.relevant:
-            parts.append("<div class=\"item\">")
+            parts.append(f'<div style="{S["item"]}">')
             parts.append(f"<div><strong>{link(e)} {h(e.titel)}</strong></div>")
-            parts.append(f"<div class=\"meta\">{h(_meta_line(e))}</div>")
-            parts.append(f"<div class=\"why\">Warum: {h(e.bewertung.begruendung)}</div>")
+            parts.append(f'<div style="{S["meta"]}">{h(_meta_line(e))}</div>')
+            parts.append(f'<div style="{S["why"]}">Warum: {h(e.bewertung.begruendung)}</div>')
             if e.status_text:
-                parts.append(f"<div class=\"quote\">{h(_kurztext(e.status_text, 400))}</div>")
+                parts.append(f'<div style="{S["quote"]}">{h(_kurztext(e.status_text, 400))}</div>')
             if e.dokumente:
-                parts.append("<div class=\"meta\">" + " · ".join(f'<a href="{h(u)}">{h(t)}</a>' for t, u in e.dokumente[:3]) + "</div>")
+                parts.append(f'<div style="{S["meta"]}">' + " · ".join(a(u, t) for t, u in e.dokumente[:3]) + "</div>")
             parts.append("</div>")
         if blk.pruefen:
-            parts.append("<p class=\"meta\"><strong>Zur Prüfung</strong></p><ul class=\"check\">")
+            parts.append(f'<p style="{S["meta"]};margin:8px 0 0 0"><strong>Zur Prüfung</strong></p><ul style="{S["ul"]}">')
             for e in blk.pruefen:
-                parts.append(f"<li>{link(e)} {h(e.titel)} <span class=\"meta\">({h(_meta_line(e))}) – {h(e.bewertung.begruendung)}</span></li>")
+                parts.append(f'<li>{link(e)} {h(e.titel)} <span style="{S["meta"]}">({h(_meta_line(e))}) – {h(e.bewertung.begruendung)}</span></li>')
             parts.append("</ul>")
         rest = blk.total - len(blk.relevant) - len(blk.pruefen)
         if rest > 0:
-            parts.append(f"<p class=\"rest\">{rest} weitere ohne Bezug zum Profil.</p>")
+            parts.append(f'<p style="{S["rest"]}">{rest} weitere ohne Bezug zum Profil.</p>')
     foot = "Quelle: Geschäftsdatenbank des Kantonsrats Zürich (CDWS-Schnittstelle)."
     if b.rohliste_url:
-        foot += f' Vollständige Rohliste: <a href="{h(b.rohliste_url)}">{h(b.rohliste_url)}</a>'
-    parts.append(f"<p class=\"foot\">{foot}</p></body></html>")
+        foot += " Vollständige Rohliste: " + a(b.rohliste_url, b.rohliste_url)
+    parts.append(f'<p style="{S["foot"]}">{foot}</p></div></body></html>')
     return "\n".join(parts)
 
 
