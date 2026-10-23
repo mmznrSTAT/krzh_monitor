@@ -68,10 +68,12 @@ Standard-Datenbank ist `krzh.sqlite` im Arbeitsverzeichnis (`--db` ändert das).
 ist idempotent: bereits bekannte Ablaufschritte werden erkannt, Traktanden einer Sitzung
 ersetzt statt verdoppelt, fehlende Geschäfte nachgeladen.
 
-Der GitHub-Workflow (`.github/workflows/weekly.yml`) läuft montags um 06:30/07:30 Uhr,
+Der GitHub-Workflow (`.github/workflows/weekly.yml`) läuft montags um 06:00/07:00 Uhr,
 schreibt `reports/latest.md` (Rohliste) und `briefings/briefing-latest.md` und `.html`
 und committet Datenbank, Rohliste und Briefing. Manuell lässt er sich mit einem
-beliebigen Stichtag starten.
+beliebigen Stichtag starten. Den Mailversand übernimmt derzeit eine geplante Aufgabe in
+Claude (montags 07:45 Uhr, Gmail); ein SMTP-Schritt im Workflow wäre die Alternative ohne
+diese Abhängigkeit.
 
 ## Aufbau
 
@@ -96,7 +98,7 @@ tests/fixtures/  Echte Antworten der Schnittstelle vom 22.10.2026, gekürzt
 
 1. Profil kalibrieren: Rückmeldungen aus den ersten Briefings einarbeiten (Begriffe,
    Gewichte, Ausschlüsse); optional semantisches Modell hinter derselben Schnittstelle.
-2. Mailversand des Briefings.
+2. Mailversand direkt aus dem Workflow (SMTP), unabhängig von Claude.
 3. Weitere Ämter der JI als eigene Profile.
 4. Abonnement einzelner Geschäfte: Tabelle `abos`, Benachrichtigung bei jedem neuen
    Ablaufschritt.
