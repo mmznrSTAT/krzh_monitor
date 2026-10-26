@@ -4,7 +4,7 @@
 
 ## Heute im Kantonsrat: 174. KR-Sitzung und 175. KR-Sitzung
 
-*140 traktandierte Geschäfte*
+*151 traktandierte Geschäfte*
 
 **[288/2024](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=75871c1609de433e814b705f53c5272d) Kantonales Verbot von bezahltem Sammeln von Unterschriften**  
 Motion · JI · Traktandum 27 · Entgegennahme, Diskussion  
@@ -36,26 +36,26 @@ Zur Prüfung:
 - [104/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=9afb5ac934444a9194efb58a3030f28a) Regelmässige Transparenz über Steuerabzüge natürlicher Personen (Motion · FD · Traktandum 89 · RRB-Nr. 536/20.5.2026 (Stellungnahme)) – Transparenz (Titel), Datengrundlage (Text), Transparenz ×4 (Text), Daten (Text)
 - [127/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=efd50532a81c4d0aa6611b68fb371e05) Co-Präsidien, Entkoppelung Präsidium/Vollamt Bezirksgerichte (Motion · JI · Traktandum 77 · RRB-Nr. 680/17.6.2026 (Stellungnahme)) – politischen Rechte ×2 (Text)
 - [114b/2023](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=54c193b8a22b4a6b82500ec6611f6daa) Kantonale Schuldenbremse (Antrag · FD · Traktandum 5) – Kennzahl ×2 (Text), Volksinitiative (Text), Gemeindeamt (Text)
+- [114/2023](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=54c193b8a22b4a6b82500ec6611f6daa) Kantonale Schuldenbremse (Postulat · FD · Traktandum 5) – Kennzahl ×2 (Text), Volksinitiative (Text), Gemeindeamt (Text)
 - [292/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=37858671b64d47d29ec4fc5117de30f8) Einführung einer spezifischen Verkehrsflächenziffer (Einzelinitiative · Traktandum 6 · Reduzierte Debatte) – politischen Rechte (Text), Bevölkerungsentwicklung (Text), Daten (Text), GIS (Text)
+- [292/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=37858671b64d47d29ec4fc5117de30f8) Einführung einer spezifischen Verkehrsflächenziffer (Einzelinitiative · Traktandum 6) – politischen Rechte (Text), Bevölkerungsentwicklung (Text), Daten (Text), GIS (Text)
 - [293/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=4eb9e642f0cf460083a57cc403859a7e) Verkehr, Verkehrsnetz und Verkehrsinfrastrukturen (Einzelinitiative · Traktandum 7 · Reduzierte Debatte) – politischen Rechte (Text), Transparenz (Text)
-- [295/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=f74fd121c67d4465b170f0a632c6a127) Bei Initiativen, die Folgekosten auslösen, muss angegeben werden, wie die Finanzierung des Vorhabens erfolgen soll (Einzelinitiative · Traktandum 10 · Reduzierte Debatte) – Volksinitiativen ×2 (Text), politischen Rechte (Text)
-- [322/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=bf6f8a51fc194d529a633b467b729ebb) Förderung des gemeinnützigen Wohnungsbaus durch Reduktion der Grundstückgewinnsteuer (Parlamentarische Initiative · Traktandum 23 · Reduzierte Debatte) – statistik (Text), daten (Text)
 
-126 weitere ohne Bezug zum Profil.
+137 weitere ohne Bezug zum Profil.
 
 ## Vergangene Woche: Eingänge, Antworten, Beschlüsse
 
-*19.10.2026 bis 25.10.2026, 13 Ablaufschritte*
+*19.10.2026 bis 25.10.2026, 14 Ablaufschritte*
 
 Zur Prüfung:
 
 - [382/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=ef598da0ab5f45f99135f7972fd665de) Vertragspaket Schweiz – EU: Kantonale Mitwirkung ohne Ständemehr? (Anfrage · Eingereicht · 19.10.2026) – Referendums ×3 (Text), Mitwirkung (Titel), Mitwirkung ×3 (Text)
 
-12 weitere ohne Bezug zum Profil.
+13 weitere ohne Bezug zum Profil.
 
 ## In den Kommissionen
 
-*23 Sitzungen mit 41 publizierten Traktanden*
+*23 Sitzungen mit 45 publizierten Traktanden*
 
 **[442/2020](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=5c9373b1cc314413a8e87617771a2d7e) Transparenz in der Politikfinanzierung: Beratung Anträge**  
 Parlamentarische Initiative · JI · STGK 23.10.2026  
@@ -76,7 +76,7 @@ Zur Prüfung:
 - [6089](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=60dd4d3666584ab58c40a250614feff1) Personalgesetz, Änderung, Elektronische Verfahrenshandlungen: Anhörungen (Vorlage · FD · STGK 23.10.2026) – Digitalisierung ×3 (Text), Datenschutz ×8 (Text), Daten ×4 (Text), Öffentlichkeitsprinzip (Text)
 - [6030](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=cb5d1e0f25054143b9d79cac9dc3fe9b) Staatsbeitragsgesetz (StBG): Fortsetzung 1. Lesung (Vorlage · FD · STGK 23.10.2026) – Befragung (Text), Personendaten ×8 (Text), IDG ×5 (Text), Referendum (Text)
 
-31 weitere ohne Bezug zum Profil.
+35 weitere ohne Bezug zum Profil.
 
 ---
 Vollständige Rohliste: https://github.com/mmznrSTAT/krzh_monitor/blob/main/reports/latest.md

@@ -1,8 +1,8 @@
-# Kantonsrat Zürich – Wochenübersicht per 22.10.2026
+# Kantonsrat Zürich – Wochenübersicht per 26.10.2026
 
-Rohliste ohne Relevanzbewertung. Quelle: Geschäftsdatenbank des Kantonsrats (CDWS-Schnittstelle), abgerufen am 22.10.2026.
+Rohliste ohne Relevanzbewertung. Quelle: Geschäftsdatenbank des Kantonsrats (CDWS-Schnittstelle), abgerufen am 26.10.2026.
 
-## Kommende Ratssitzungen (22.10.2026 bis 05.11.2026)
+## Kommende Ratssitzungen (26.10.2026 bis 09.11.2026)
 
 ### 174. KR-Sitzung – 26.10.2026, 08:15
 
@@ -10,16 +10,27 @@ Rohliste ohne Relevanzbewertung. Quelle: Geschäftsdatenbank des Kantonsrats (CD
 |---:|---|---|---|---|---|
 | 1 | – | Mitteilungen |  |  |  |
 | 2 | [369/2025](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=6e8db17391d54ece84247a3fea161d49) | Wahl Ersatzmitglied Obergericht für Verena Seiler | Wahl |  |  |
+| 2 | [369/2025](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=6e8db17391d54ece84247a3fea161d49) | Wahl Ersatzmitglied Obergericht für Verena Seiler | Wahl |  |  |
+| 3 | [204/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=11a89a9b2c6943988b1cc49fe3364c6a) | Wahl Ersatzmitglied Obergericht für Titus Graf | Wahl |  |  |
 | 3 | [204/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=11a89a9b2c6943988b1cc49fe3364c6a) | Wahl Ersatzmitglied Obergericht für Titus Graf | Wahl |  |  |
 | 4 | [6082a](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=b7ea39c8a14b441988d115a59265c179) | Objektkredit für einen Beitrag an den Kanton Jura zur Deckung einer Zahlungslücke im Finanzausgleich | Antrag | FD |  |
+| 4 | [6082](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=b7ea39c8a14b441988d115a59265c179) | Objektkredit Beitrag an den Kanton Jura zur Deckung einer Zahlungslücke im Finanzausgleich | Vorlage | FD |  |
 | 5 | [114b/2023](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=54c193b8a22b4a6b82500ec6611f6daa) | Kantonale Schuldenbremse | Antrag | FD |  |
+| 5 | [114/2023](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=54c193b8a22b4a6b82500ec6611f6daa) | Kantonale Schuldenbremse | Postulat | FD |  |
 | 6 | [292/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=37858671b64d47d29ec4fc5117de30f8) | Einführung einer spezifischen Verkehrsflächenziffer | Einzelinitiative |  | Reduzierte Debatte |
+| 6 | [292/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=37858671b64d47d29ec4fc5117de30f8) | Einführung einer spezifischen Verkehrsflächenziffer | Einzelinitiative |  |  |
 | 7 | [293/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=4eb9e642f0cf460083a57cc403859a7e) | Verkehr, Verkehrsnetz und Verkehrsinfrastrukturen | Einzelinitiative |  | Reduzierte Debatte |
+| 7 | [293/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=4eb9e642f0cf460083a57cc403859a7e) | Verkehr, Verkehrsnetz und Verkehrsinfrastrukturen | Einzelinitiative |  |  |
 | 8 | [242/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=148887aa9a5c405588c087d048716028) | Zuständigkeit für die Festsetzung von Mindestlöhnen | Einzelinitiative |  | Reduzierte Debatte |
+| 8 | [242/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=148887aa9a5c405588c087d048716028) | Zuständigkeit für die Festsetzung von Mindestlöhnen | Einzelinitiative |  |  |
 | 9 | [294/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=dd7a4d46217244d887ba6674ac017995) | Standesinitiative: Keine Energie für die Produktion von Unterhaltungsquatsch in Strommangelzeiten | Einzelinitiative |  | Reduzierte Debatte |
+| 9 | [294/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=dd7a4d46217244d887ba6674ac017995) | Standesinitiative: Keine Energie für die Produktion von Unterhaltungsquatsch in Strommangelzeiten | Einzelinitiative |  |  |
 | 10 | [295/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=f74fd121c67d4465b170f0a632c6a127) | Bei Initiativen, die Folgekosten auslösen, muss angegeben werden, wie die Finanzierung des Vorhabens erfolgen soll | Einzelinitiative |  | Reduzierte Debatte |
+| 10 | [295/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=f74fd121c67d4465b170f0a632c6a127) | Bei Initiativen, die Folgekosten auslösen, muss angegeben werden, wie die Finanzierung des Vorhabens erfolgen soll | Einzelinitiative |  |  |
 | 11 | [297/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=3954608a3a314a9f867811dc8b583fd6) | Standesinitiative: Änderung des Namensrechts | Einzelinitiative |  | Reduzierte Debatte |
+| 11 | [297/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=3954608a3a314a9f867811dc8b583fd6) | Standesinitiative: Änderung des Namensrechts | Einzelinitiative |  |  |
 | 12 | [128/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=1ef8587ffd4b4298aae23d7b59d7f933) | PFAS: Standesinitiative zur Einführung einer kostendeckenden Abgabe an der Quelle | Parlamentarische Initiative |  | Reduzierte Debatte |
+| 12 | [128/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=1ef8587ffd4b4298aae23d7b59d7f933) | PFAS: Standesinitiative zur Einführung einer kostendeckenden Abgabe an der Quelle | Parlamentarische Initiative |  |  |
 | 13 | [129/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=840abbe799d1435d9a49bb376a5d0adb) | Ermöglichung von Co-Präsidien am Sozialversicherungsgericht | Parlamentarische Initiative |  | Reduzierte Debatte |
 | 14 | [130/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=eade2bb15cda4da88629e6cd4d65c33e) | Ermöglichung von Co-Präsidien am Verwaltungsgericht | Parlamentarische Initiative |  | Reduzierte Debatte |
 | 15 | [131/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=7a1f6b7844d94d4d8d93aef1a9e13915) | Ermöglichung von Co-Präsidien am Baurekursgericht | Parlamentarische Initiative |  | Reduzierte Debatte |
@@ -159,7 +170,7 @@ Rohliste ohne Relevanzbewertung. Quelle: Geschäftsdatenbank des Kantonsrats (CD
 
 Noch keine Traktandenliste publiziert.
 
-## Kommissionssitzungen mit publizierten Traktanden (15.10.2026 bis 05.11.2026)
+## Kommissionssitzungen mit publizierten Traktanden (19.10.2026 bis 09.11.2026)
 
 ### 67. KSSG-Sitzung – 20.10.2026
 
@@ -182,7 +193,7 @@ Noch keine Traktandenliste publiziert.
 ### 084. KBIK-Sitzung – 20.10.2026
 
 - [6117](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=612f8b7b746f4f91899eef592676162f) Festsetzung Budget für das Rechnungsjahr 2027
-- [5564](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=fcffe96a65d34a9b9fbbb47130de3e45) a  Subvention von Bildungsgängen höhere Fachschule im Gesundheitswesen der Careum AG Bildungszentrum für Gesundheitsberufe
+- [5564](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=fcffe96a65d34a9b9fbbb47130de3e45) a  Abrechnung Subvention von Bildungsgängen höhere Fachschule im Gesundheitswesen der Careum AG Bildungszentrum für Gesundheitsberufe
 - [6110](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=a6734785229b4b65bf03385346b26033) Wahl Mitglieder Fachhochschulrat, Amtsdauer 2027–2030
 - [108/2025](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=1557c033efcc47199559cd143148cabc) Unentgeltlichkeit der Lehrmittel während der Schulpflicht
 
@@ -207,6 +218,10 @@ Noch keine Traktandenliste publiziert.
 - [6115](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=e0773dde4f9e40deaf29ee6f8110060e) Sozialhilfegesetz, Hilfe für Schutzbedürftige, Schlussabstimmung, DS
 - [–](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=e4247288adea4ddd8587ed97f9bb2752) Informationstraktandum zu Kinder in Armut, DS
 - [6117](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=612f8b7b746f4f91899eef592676162f) Budget 2027, Abstimmung über Anträge, DS, GD
+- [6124](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=39d0a5fcab7f4e8d89a2720abdeb8b81) Spitalrat USZ, Ersatzwahl Amtsdauer 2023–2027, Erneuerungswahl Amtsdauer 2027–2031, Festsetzung Frist für Anträge, GD
+- [6125](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=848420de4bf54ccbbfae13d504101d8d) Spitalrat KSW, Erneuerungswahl Amtsdauer 2027–2031, Festsetzung Frist für Anträge, GD
+- [6126](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=de76027fbc2049e0a80f42c35e89b0e0) Spitalrat PUK, Erneuerungswahl Amtsdauer 2027–2031, Festsetzung Frist für Anträge, GD
+- [6127](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=c5801c82836544888c851192a8d84c85) Spitalrat ipw, Ersatzwahl Amtsdauer 2023–2027, Erneuerungswahl Amtsdauer 2027–2031, Festsetzung Frist für Anträge, GD
 - [367/2021](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=99c4d14b39e043d0af794bad8f1603f8) Postulat betreffend Attraktivität des Hausarztberufes, Beratung oder Schlussabstimmung, GD
 - [384/2021](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=3125fac1de8f41d9af8cededfb4bc083) Postulat betreffend Kreislaufwirtschaft im Gesundheitssektor, Beratung oder Schlussabstimmung, GD
 - [6121](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=6e49afe8aeaa4ec3ad56d0093f518c94) Objektkredit Fachstelle Forensic Assessment & Risk Management der PUK, Anhörung Fachstellenleiterin, Beratung, GD
@@ -237,7 +252,7 @@ Noch keine Traktandenliste publiziert.
 - [6110](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=a6734785229b4b65bf03385346b26033) Wahl Mitglieder Fachhochschulrat, Amtsdauer 2027–2030
 - [271/2022](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=d2a04ec2eee94bc9afef2d912ecc36eb) Höherer Lektionenfaktor für eine Jahreslektion
 
-## Ablaufschritte vom 15.10.2026 bis 22.10.2026
+## Ablaufschritte vom 19.10.2026 bis 26.10.2026
 
 ### Eingereicht (8)
 
@@ -265,6 +280,9 @@ Noch keine Traktandenliste publiziert.
 
 ### Medienmitteilung (5)
 
+- – **(ohne Titel)** (23.10.2026)
+  - Medienmitteilung der IPBK **Diskussion über Kreislaufwirtschaft und Umgang mit Wasserknappheit** Die Internationale Parlamentarische Bodensee-Konferenz (IPBK) hat sich an ihrer 66. Sitzung mit möglichen grenzüberschreitenden Projekten zur Kreislaufwirtschaft und mit der künftigen Nutzung der Ressou…
+  - [PD Medienmitteilung IPBK Zürich 2026-10-23](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/697738f477074b50af517ecb19f204f4-332/1/pdf)
 - – **(ohne Titel)** (22.10.2026)
   - Medienmitteilung der PD **Beschlüsse der Kommissionen** Die STGK beantragt dem Kantonsrat einstimmig, die Motion betreffend «Kundenfreundliche Einsicht in amtliche Publikationen» als erledigt abzuschreiben ([KR-Nr. 124/2021](https://www.kantonsrat.zh.ch/geschaefte/geschaeft/?id=5771c59ef79b42debf8a…
   - [Beschlüsse der Kommissionen 2026-10-22](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/e02c4b0c9f1949deb5e0d2cc54bcb7e1-332/1/pdf)
@@ -277,6 +295,8 @@ Noch keine Traktandenliste publiziert.
 - [–](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=1e800e2ef0e0487698e45e93ea6d0147) **Jahresberichte der Zürcher Hochschule für Angewandte Wissenschaften, der Zürcher Hochschule der Künste und der Pädagogischen Hochschule Zürich für das Jahr 2025** (BI · 22.10.2026)
   - Medienmitteilung der ABG **ABG beantragt Genehmigung der Hochschulberichte und kritisiert UZH** Die Aufsichtskommission für Bildung und Gesundheit (ABG) beantragt einstimmig, die Jahresberichte 2025 der drei Zürcher Fachhochschulen ([6080](https://www.kantonsrat.zh.ch/geschaefte/geschaeft/?id=1e800…
   - [ABG Medienmitteilung 6080_6081 2026-10-22](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/cd277ebd68e14ea0924cd18ea0e42e1e-332/1/pdf)
-- – **(ohne Titel)** (15.10.2026)
-  - Medienmitteilung der PD **Beschlüsse der Kommissionen** Die KBIK beantragt dem Kantonsrat einstimmig, das Postulat betreffend «Mehr Flexibilität bei den Klassengrössen» als erledigt abzuschreiben ([KR-Nr. 294/2022](https://www.kantonsrat.zh.ch/geschaefte/geschaeft/?id=1b858088cdf1409fa022292337ed13…
-  - [Beschlüsse der Kommissionen 2026-10-15](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/0dd7fb1a40aa4518b2cf8c33eb915083-332/1/pdf)
+
+### Umwandlung in ein Postulat (1)
+
+- [329/2024](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=867fb0fda4f64a3d838e0cdf44456ebc) **Verschiedene Mehrwertabgaben bei Auf- und Umzonungen** (Motion · BD · 26.10.2026)
+  - Umwandlung in Postulat
