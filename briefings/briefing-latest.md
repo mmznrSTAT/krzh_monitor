@@ -1,6 +1,6 @@
 # ASD-Briefing Kantonsrat, Montag 02.11.2026
 
-5 relevante Geschäfte, 13 zur Prüfung. Auswahl nach Profil «ASD» (Schlüsselwörter in Titel, Zusammenfassung und Volltext).
+5 relevante Geschäfte, 16 zur Prüfung. Auswahl nach Profil «ASD» (Schlüsselwörter in Titel, Zusammenfassung und Volltext).
 
 ## Heute im Kantonsrat: 176. KR-Sitzung
 
@@ -14,7 +14,7 @@ Warum: Open-Source (Titel), EMBAG (Titel), Schnittstellen ×4 (Text), digitale V
 
 ## Vergangene Woche: Eingänge, Antworten, Beschlüsse
 
-*26.10.2026 bis 01.11.2026, 26 Ablaufschritte*
+*26.10.2026 bis 01.11.2026, 41 Ablaufschritte*
 
 **[397/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=cfcb4209927a4611811e0b4629242908) Zulassung neuer Kandidierender zum zweiten Wahlgang bei Majorzwahlen**  
 Anfrage · Eingereicht · 26.10.2026  
@@ -26,10 +26,13 @@ Zur Prüfung:
 - [6118](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=a5e2dcabb6224beea4e4e53ed53bbbc1) Langfristige, strategische Immobilienplanung LSI 2026 (Vorlage · BD · Antrag Kommission · 29.10.2026) – Statistik ×2 (Text), Datenbasis ×2 (Text), Kennzahlen (Text), Daten ×3 (Text)
 - [6116](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=fe854ffa15ac492baae3101d93763b39) Bauprogramm der Staatsstrassen für die Jahre 2027–2029 (Vorlage · VD · Antrag Kommission · 29.10.2026) – Digitalisierung ×2 (Text), Auswertung ×4 (Text), Mitwirkung (Text)
 - [113/2023](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=4f70ffce37a8421e90080503d9de89ed) Risikobericht in der Rechnung des Kantons Zürich (Postulat · Antrag Kommission · 29.10.2026) – Datenlage ×2 (Text), Transparenz ×4 (Text), Daten (Text), evaluieren (Text)
+- [114/2023](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=54c193b8a22b4a6b82500ec6611f6daa) Kantonale Schuldenbremse (Postulat · FD · Ablehnung · 26.10.2026) – Kennzahl ×2 (Text), Volksinitiative (Text), Gemeindeamt (Text)
+- [292/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=37858671b64d47d29ec4fc5117de30f8) Einführung einer spezifischen Verkehrsflächenziffer (Einzelinitiative · Ablehnung · 26.10.2026) – politischen Rechte (Text), Bevölkerungsentwicklung (Text), Daten (Text), GIS (Text)
+- [293/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=4eb9e642f0cf460083a57cc403859a7e) Verkehr, Verkehrsnetz und Verkehrsinfrastrukturen (Einzelinitiative · Ablehnung · 26.10.2026) – politischen Rechte (Text), Transparenz (Text)
+- [295/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=f74fd121c67d4465b170f0a632c6a127) Bei Initiativen, die Folgekosten auslösen, muss angegeben werden, wie die Finanzierung des Vorhabens erfolgen soll (Einzelinitiative · Ablehnung · 26.10.2026) – Volksinitiativen ×2 (Text), politischen Rechte (Text)
 - [394/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=2be1aff71bc44302ac60ad62ec837bc3) Rechtzeitige Zustellung der Wahl- und Abstimmungsunterlagen an Auslandschweizerinnen und Auslandschweizer (Anfrage · Eingereicht · 26.10.2026) – politischen Rechte ×5 (Text), Stimmregister (Text), Demokratie (Text)
-- [396/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=144582b1648a4c798a6647c0b5f24785) Weshalb finden zweite Wahlgänge bei Exekutivwahlen im Kanton Zürich so spät statt? (Anfrage · Eingereicht · 26.10.2026) – Wahlrecht (Text), Majorzwahl (Text), Regierungsratswahlen ×3 (Text)
 
-20 weitere ohne Bezug zum Profil.
+32 weitere ohne Bezug zum Profil.
 
 ## In den Kommissionen
 

@@ -85,8 +85,10 @@ Noch keine Traktandenliste publiziert.
 
 ## Ablaufschritte vom 26.10.2026 bis 02.11.2026
 
-### Eingereicht (17)
+### Eingereicht (18)
 
+- [406/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=18e0176cf16b46168def45f4f867d249) **Einzelinitiative "Jede Stimme zählt: Listenverbindungen auch hier ermöglichen"** (Einzelinitiative · 02.11.2026)
+  - [Eingabe EI Einzelinitiative Jede Stimme zählt Listenverbindungen auch hier ermöglichen](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/de86276ee7a942348d07073b1afb19be-332/1/pdf)
 - [389/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=1eb7663d98fa4c1fb55736fb589ce34e) **Konsultationsverfahren anstelle eines ordentlichen Vernehmlassungsverfahrens** (Anfrage · 26.10.2026)
   - [Anfrage 389/2026 Konsultationsverfahren anstelle eines ordentlichen Vernehmlassungsverfahrens](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/1120ed4520484a69a264749c84af2a46-332/1/pdf)
 - [390/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=130015103fb94021b48948b3b9c9012a) **Verspätete Auszahlung der kantonalen Naturschutzbeiträge aufgrund von Problemen mit LAWIS plus** (Anfrage · 26.10.2026)
@@ -148,6 +150,55 @@ Noch keine Traktandenliste publiziert.
   - Medienmitteilung der PD **Beschlüsse der Kommissionen** Die FIKO beantragt dem Kantonsrat einstimmig, einer Änderung des Gesetzes über Controlling und Rechnungslegung (CRG) zuzustimmen ([6072](https://www.kantonsrat.zh.ch/geschaefte/geschaeft/?id=b3f57d7fd1fc4328b1bf4a17ecfe895c)) und gleichzeitig…
   - [Beschlüsse der Kommissionen 2026-10-29](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/16e3738e28614758be9530ea8ab8695a-332/1/pdf)
 
+### Überweisung an Regierungsrat (1)
+
+- [195/2024](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=a5d65b2863ef41f790b34bffe9de938c) **Anpassung des Beschwerdeverfahrens in Bausachen** (Motion · BD · 26.10.2026)
+  - Überweisung an RR mit 94 JA, 77 NEIN, 0 ENTH. Der Kantonsrat hat mit 94 zu 77 Stimmen die Motion betreffend «Anpassung des Beschwerdeverfahrens in Bausachen» von Thomas Anwander, Kantonsrat der Mitte, überwiesen. Das Geschäft geht an den Regierungsrat zur Ausarbeitung einer Vorlage mit Bericht und…
+  - [VOTE-KRZH-20261026-154111-T040-00-0022096.pdf](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/0fbf0835dd8649ebb77f0a6b7d9c544f-332/1/pdf)
+
+### Zustimmung (2)
+
+- [6082](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=b7ea39c8a14b441988d115a59265c179) **Objektkredit Beitrag an den Kanton Jura zur Deckung einer Zahlungslücke im Finanzausgleich** (Vorlage · FD · 26.10.2026)
+  - Zustimmung mit 107 JA, 67 NEIN, 0 ENTH. (Ausgabenbremse 125 Stimmen) Der Kantonsrat hat den Objektkredit für einen Beitrag an den Kanton Jura zur Deckung einer Zahlungslücke im Finanzausgleich mit 107 zu 67 Stimmen bewilligt. Das für die Lösung der Ausgabenbremse nötige Quorum von 91 Stimmen wurde…
+  - [VOTE-KRZH-20261026-092221-T004-00-0022060.pdf](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/8d5f28a6fc00432ea194c7cfbca8916f-332/1/pdf)
+- [30/2025](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=4ffb3ae5c3f14b0fb625594690408393) **Schluss mit Lohnexzessen bei der AXPO** (Dringliches Postulat · BD · 26.10.2026)
+  - Zustimmung Kommissionsmehrheit 118 NEIN, 52 JA, 0 Enth. (Abschreibung mit abweichender Stellungnahme) Der Kantonsrat hat das Postulat betreffend «Schluss mit Lohnexzessen bei der AXPO!» von SP, SVP, Grünen, Mitte, EVP und AL als erledigt abgeschrieben. Ein Antrag, dies mit einer anderslautenden Ste…
+  - [VOTE-KRZH-20261026-150415-T039-00-0022093.pdf](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/3cf5abdf36c84e5587fc23dd70a1977b-332/1/pdf)
+
+### Ablehnung (8)
+
+- [114/2023](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=54c193b8a22b4a6b82500ec6611f6daa) **Kantonale Schuldenbremse** (Postulat · FD · 26.10.2026)
+  - Ablehnung Kommissionsmehrheit 89 NEIN, 87 JA, 0 Enth. (Zustimmung Minderheitsantrag L’Orange Seigo, Abschreibung ohne abweichende Stellungnahme) Der Kantonsrat hat das Postulat betreffend «Kantonale Schuldenbremse» von SVP, FDP und Mitte als erledigt abgeschrieben. Ein Antrag, dies mit einer anders…
+  - [VOTE-KRZH-20261026-095624-T005-00-0022069.pdf](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/4c572a4229d94fadb3e961c83b6a1c0d-332/1/pdf)
+- [128/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=1ef8587ffd4b4298aae23d7b59d7f933) **PFAS: Standesinitiative zur Einführung einer kostendeckenden Abgabe an der Quelle** (Parlamentarische Initiative · 26.10.2026)
+  - nicht vorläufig unterstützt (54 Stimmen) Der Kantonsrat hat eine parlamentarische Initiative von Grünen-Kantonsrat Benjamin Krähenmann abgelehnt, mit der gefordert wurde, dass der Bund dafür sorgen soll, dass eine Abgabe auf PFAS (per- und polyfluorierte Alkylsubstanzen) an der Quelle erhoben und d…
+  - [VOTE-KRZH-20261026-115941-T012-00-0022090.pdf](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/53f7ba8653fa4bb484befdf07d0362f3-332/1/pdf)
+- [242/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=148887aa9a5c405588c087d048716028) **Zuständigkeit für die Festsetzung von Mindestlöhnen** (Einzelinitiative · 26.10.2026)
+  - nicht vorläufig unterstützt (47 Stimmen) Der Kantonsrat hat eine Einzelinitiative mit 47 Stimmen nicht vorläufig unterstützt, mit der eine Person aus Hedingen forderte, dass ausschliesslich der Kanton für die Festsetzung von Mindestlöhnen zuständig sein soll. Für eine vorläufige Unterstützung wären…
+  - [VOTE-KRZH-20261026-111915-T008-00-0022078.pdf](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/7c32256aa13f472ca63755475842536c-332/1/pdf)
+- [292/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=37858671b64d47d29ec4fc5117de30f8) **Einführung einer spezifischen Verkehrsflächenziffer** (Einzelinitiative · 26.10.2026)
+  - nicht vorläufig unterstützt (0 Stimmen) Der Kantonsrat hat eine Einzelinitiative mit 0 Stimmen nicht vorläufig unterstützt, mit der eine Person aus Winterthur die Einführung einer sogenannten Verkehrsflächenziffer fordert. Für eine vorläufige Unterstützung wären 60 Stimmen nötig gewesen. Das Geschä…
+  - [VOTE-KRZH-20261026-104409-T006-00-0022072.pdf](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/22d118e566db43559297d77aa913743f-332/1/pdf)
+- [293/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=4eb9e642f0cf460083a57cc403859a7e) **Verkehr, Verkehrsnetz und Verkehrsinfrastrukturen** (Einzelinitiative · 26.10.2026)
+  - nicht vorläufig unterstützt (0 Stimmen) Der Kantonsrat hat eine Einzelinitiative mit 0 Stimmen nicht vorläufig unterstützt, mit der eine Person aus Winterthur forderte, dass das kantonale Gesamtverkehrskonzept um eine Verkehrsflächenziffer ergänzt wird. Für eine vorläufige Unterstützung wären 60 St…
+  - [VOTE-KRZH-20261026-104523-T007-00-0022075.pdf](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/d3742fd402f94c87936c048e0576ba8f-332/1/pdf)
+- [294/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=dd7a4d46217244d887ba6674ac017995) **Standesinitiative: Keine Energie für die Produktion von Unterhaltungsquatsch in Strommangelzeiten** (Einzelinitiative · 26.10.2026)
+  - nicht vorläufig unterstützt (0 Stimmen) Der Kantonsrat hat eine Einzelinitiative mit 0 Stimmen nicht vorläufig unterstützt, mit der eine Person aus Uster forderte, dass der Kanton beim Bund eine Standesinitiative einreicht, damit in Zeiten der Stromknappheit grossen Rechenzentren, die nach Ansicht…
+  - [VOTE-KRZH-20261026-112123-T009-00-0022081.pdf](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/40aa54007d9a485ea3f671a898704c31-332/1/pdf)
+- [295/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=f74fd121c67d4465b170f0a632c6a127) **Bei Initiativen, die Folgekosten auslösen, muss angegeben werden, wie die Finanzierung des Vorhabens erfolgen soll** (Einzelinitiative · 26.10.2026)
+  - nicht vorläufig unterstützt (0 Stimmen) Der Kantonsrat hat eine Einzelinitiative mit 0 Stimmen nicht vorläufig unterstützt, mit der eine Person aus Neerach forderte, dass bei Volksinitiativen, die zusätzliche Ausgaben für Kanton oder Gemeinden verursachen, künftig auch angegeben werden müsse, wie d…
+  - [VOTE-KRZH-20261026-112308-T010-00-0022084.pdf](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/817da7903fb7415196ff6e71b3fe4d7f-332/1/pdf)
+- [297/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=3954608a3a314a9f867811dc8b583fd6) **Standesinitiative: Änderung des Namensrechts** (Einzelinitiative · 26.10.2026)
+  - nicht vorläufig unterstützt (0 Stimmen) Der Kantonsrat hat eine Einzelinitiative mit 0 Stimmen nicht vorläufig unterstützt, mit der eine Person aus Uster forderte, das Namensrecht so zu ändern, damit Erwachsene einmal im Leben ihrem bisherigen Vornamen einen selbst gewählten Vornamen voranstellen k…
+  - [VOTE-KRZH-20261026-112437-T011-00-0022087.pdf](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/84119070f27840a88a27b566edb328b8-332/1/pdf)
+
+### Diskutiert (2)
+
+- [247/2024](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=7d7b4d6c218c439c8c731c8c96d8c3f6) **Gemeinden und Bevölkerung an der Windenergie beteiligen** (Interpellation · BD · 26.10.2026)
+  - Diskutiert, Verfahren beendet Der Kantonsrat hat über die Antworten des Regierungsrates auf die Interpellation betreffend «Gemeinden und Bevölkerung an der Windenergie beteiligen» von GLP-Kantonsrätin Stefanie Huber diskutiert. Mit der Diskussion im Rat ist das Geschäft erledigt. Sitzungsvideo
+- [323/2024](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=34e28c3c196b4eff8f99a4fd5a80f2b3) **Brütende Wasservögel weniger stören** (Interpellation · BD · 26.10.2026)
+  - Diskutiert, Verfahren beendet Der Kantonsrat hat über die Antworten des Regierungsrates auf die Interpellation betreffend «Brütende Wasservögel weniger stören» von Wilma Willi, Kantonsrätin der Grünen, diskutiert. Mit der Diskussion im Rat ist das Geschäft erledigt. Sitzungsvideo
+
 ### Sistierung (1)
 
 - [–](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=8bf9682f52a94662935a6a2c2e4c6cbb) **Straf- und Justizvollzugsgesetz, Änderung, Verbot von Konversionspraktiken** (JI · 30.10.2026)
@@ -157,3 +208,10 @@ Noch keine Traktandenliste publiziert.
 
 - [329/2024](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=867fb0fda4f64a3d838e0cdf44456ebc) **Verschiedene Mehrwertabgaben bei Auf- und Umzonungen** (Motion · BD · 26.10.2026)
   - Umwandlung in Postulat
+
+### Wahl (2)
+
+- [204/2026](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=11a89a9b2c6943988b1cc49fe3364c6a) **Wahl Ersatzmitglied Obergericht für Titus Graf** (Wahl · 26.10.2026)
+  - Wahl Kathrin Findeisen Studiger, Zürich Der Kantonsrat hat ohne Gegenantrag ein neues Ersatzmitglied des Obergerichts für den Rest der Amtsdauer 2025–2031 gewählt. Sitzungsvideo
+- [369/2025](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=6e8db17391d54ece84247a3fea161d49) **Wahl Ersatzmitglied Obergericht für Verena Seiler** (Wahl · 26.10.2026)
+  - Wahl Susanne Anderhalden, Zürich Der Kantonsrat hat ohne Gegenantrag ein neues Ersatzmitglied des Obergerichts für den Rest der Amtsdauer 2025–2031 gewählt. Sitzungsvideo
