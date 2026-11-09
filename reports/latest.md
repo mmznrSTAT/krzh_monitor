@@ -59,6 +59,26 @@ Noch keine Traktandenliste publiziert.
 - [66/2024](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=44795f31dd334a44bc8ca8caf3c9fa66) Kantonales Verbandsbeschwerderecht
 - [331/2024](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=be155c401ff14b7dbe463679668c317a) Änderung der Nutzungsplanung ohne negative Vorwirkung
 
+### 107. KPB-Sitzung – 17.11.2026
+
+- [6057](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=6704273f82a9433ea9de8eaa913c773c) Planungs- und Baugesetz, Änderung, Kompensationspflicht für Fruchtfolgeflächen
+- [6113](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=074e9ecb95d6497d95532aba8a3cf70b) Objektkredit Rochadebau PORTAL UZH, Campus Irchel, Zürich
+- [6106](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=7e0060b0b0fe496c9a9f47600826e6e8) Planungs- und Baugesetz, Änderung, Baudenkmäler
+- [6050](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=f0f8d17929cf4b7bae1461ee58db6252) Teilrevision 2024 Kantonaler Richtplan, Kapitel 2 Siedlung, Kapitel 3 Landschaft, Kapitel 6 Öffentliche Bauten und Anlagen
+- [351/2019](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=991412ea06284c2caa1f7dfd5fe4d198) Raumentwicklung und Nacht
+- [6117](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=612f8b7b746f4f91899eef592676162f) Festsetzung Budget für das Rechnungsjahr 2027
+
+### 087. KBIK-Sitzung – 17.11.2026
+
+- [6109](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=1ee7a5d7b1cc4d689d5e6bf680332313) Beiträge Kulturfonds zugunsten der Städte Winterthur und Zürich für die grossen Kulturinstitutionen, Legislaturtranchen 2023–2027
+- [6117](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=612f8b7b746f4f91899eef592676162f) Festsetzung Budget für das Rechnungsjahr 2027
+- [5564](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=fcffe96a65d34a9b9fbbb47130de3e45) a Genehmigung der Abrechnung  Subvention von Bildungsgängen höhere Fachschule im Gesundheitswesen der Careum AG Bildungszentrum für Gesundheitsberufe
+- [39/2024](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=88f661cb4ac848e398ee331d818a5ade) Regelklassen endlich wirksam entlasten
+- [91/2023](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=1f6d8493719347149ba4bd92d8377386) Lehrberuf an der Volksschule mit Laufbahnmodellen attraktiver machen
+- [271/2022](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=d2a04ec2eee94bc9afef2d912ecc36eb) Höherer Lektionenfaktor für eine Jahreslektion
+- [28/2021](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=5be2f994f35e40709c55e692141538d3) Finanzierung familienergänzende Kinderbetreuung
+- [6107](https://www.kantonsrat.zh.ch/geschaefte/geschaeft?id=52ba95348e2d4f368617c515b3a8073a) Einführungsgesetz zum Berufsbildungsgesetz, Änderung, Förderung Abschluss auf Sekundarstufe II für Erwachsene
+
 ## Ablaufschritte vom 02.11.2026 bis 09.11.2026
 
 ### Eingereicht (8)
