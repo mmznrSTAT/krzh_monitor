@@ -1,7 +1,8 @@
-Ablaufschritte: 43 (16 neu) · Sitzungen: 31 · Traktanden: 0 aus PDF, 62 strukturiert · Geschäfte nachgeladen: 1
-geschaefte      215
-ablaufschritte  537
-sitzungen       45
-traktanden      235
-Briefing geschrieben: briefings/briefing-latest.md (5 relevant, 16 zur Prüfung)
+Ablaufschritte: 11 (9 neu) · Sitzungen: 29 · Traktanden: 0 aus PDF, 36 strukturiert · Geschäfte nachgeladen: 10
+Nicht gefunden: 407/2026
+geschaefte      225
+ablaufschritte  551
+sitzungen       56
+traktanden      253
+Briefing geschrieben: briefings/briefing-latest.md (2 relevant, 11 zur Prüfung)
 HTML geschrieben: briefings/briefing-latest.html
